@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.74ea8d12cf2f61fe0773c18e22b667fa.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.5c29d2be6e49ac8a2cd2349a3cef0d34.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.2681b9f95741d0dc2ac91121324ff0fc.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.d4252a8629efd4cfcab8be369ca0eff9.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.d3e722ddb12df037feb647edc4bf6203.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_72x72.0aa29ddaa0f0bddd95e7f0efdb34ca46.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "name": "England League 2021",
+  "short_name": "EN League 2021",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "description": "Aplikasi sederhana yang berisi informasi sepak bola Liga Inggris 2021.",
+  "background_color": "#fff",
+  "theme_color": "#42A5F5",
+  "gcm_sender_id": "13663733519"
+}

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/material-icons/MaterialIcons-Regular.eot');
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('../assets/fonts/material-icons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../assets/fonts/material-icons/MaterialIcons-Regular.woff') format('woff'),
+    url('../assets/fonts/material-icons/MaterialIcons-Regular.ttf') format('truetype');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.d-flex {
+  display: flex !important;
+}
+.flex-lg-row {
+  flex-direction: column;
+}
+.card {
+  border-radius: 5px;
+}
+.card {
+  color: #000;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.btn-back {
+  display: none;
+}
+.preloader {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+@media only screen and (min-width: 601px) {
+  .flex-lg-row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .btn-back {
+    display: block;
+  }
+}
+@media (max-width: 575.98px) {
+  nav .brand-logo {
+    font-size: 1.5rem;
+  }
+}
